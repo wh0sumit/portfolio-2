@@ -1,0 +1,37 @@
+.text-1 {
+  color: #ced0e3;
+}
+
+.para {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.para:hover {
+  cursor: url("./hand.gif");
+}
+
+.color-change-2x {
+  -webkit-animation: color-change-2x 2s linear infinite alternate both;
+  animation: color-change-2x 2s linear infinite alternate both;
+}
+
+@-webkit-keyframes color-change-2x {
+  0% {
+    color: #a5a9c7;
+  }
+  100% {
+    color: #feed6d;
+  }
+}
+
+@keyframes color-change-2x {
+  0% {
+    color: #a5a9c7;
+  }
+  100% {
+    color: #feed6d;
+  }
+}
+/*# sourceMappingURL=style.css.map */
