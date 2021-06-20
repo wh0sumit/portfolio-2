@@ -2,7 +2,47 @@
   background-color: #171c3d;
 }
 
+.selectDisable {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  -ms-user-select: none;
+      user-select: none;
+}
+
 .text-1 {
+  color: #ced0e3;
+}
+
+html,
+body {
+  cursor: none;
+}
+
+.c--clicked {
+  -webkit-transform: translate(-50%, -50%) scale(0.5);
+          transform: translate(-50%, -50%) scale(0.5);
+  background-color: #ced0e3;
+}
+
+.c--hidden {
+  opacity: 0;
+}
+
+.cursor {
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #feed6d;
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
+}
+
+a:hover {
+  cursor: none;
   color: #ced0e3;
 }
 /*# sourceMappingURL=App.css.map */

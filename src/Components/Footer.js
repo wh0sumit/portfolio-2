@@ -3,7 +3,7 @@ import './style.css'
 function Footer() {
      return (
           
-          <div className="mx-2 my-4 align-self-end">
+          <div className="mx-4 my-3">
                <nav className="navbar navbar-expand-lg bg-transparent">
                  <div className="container-fluid">
                        <a className="navbar-brand text-decoration-none para text-1" href="#">resume</a>

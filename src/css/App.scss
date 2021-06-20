@@ -10,7 +10,41 @@ $color-8: #cc9da0;
 .bg-custom-1 {
   background-color: $color-2;
 }
+.selectDisable {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
 
 .text-1 {
   color: $color-6;
+}
+html,
+body {
+  cursor: none;
+}
+.c--clicked {
+  transform: translate(-50%, -50%) scale(0.5);
+  background-color: $color-6;
+}
+.c--hidden {
+  opacity: 0;
+}
+
+.cursor {
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: $color-5;
+  transition: transform 0.2s;
+}
+
+a {
+  &:hover {
+    cursor: none;
+    color: $color-6;
+  }
 }

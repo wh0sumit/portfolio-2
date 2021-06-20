@@ -1,16 +1,19 @@
 import './css/App.css';
-import Navbar from './Navbar/Navbar'
+import Navbar from './Components/Navbar'
 import Section from './Section/Section'
-import Footer from './Navbar/Footer'
+import Footer from './Components/Footer'
+import Cursor from './Components/Cursor'
 function App() {
-    
+  
   return (
-     <div className = "App container p-3 my-2" >
+     <div className = "App selectDisable " >
+     <Cursor/>
       <Navbar />
       <Section/>
       <Footer />
+      
     </div>
-  );
+);
 }
 
 export default App;
