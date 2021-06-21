@@ -25,13 +25,6 @@ html,
 body {
   cursor: none;
 }
-.c--clicked {
-  transform: translate(-50%, -50%) scale(0.5);
-  background-color: $color-6;
-}
-.c--hidden {
-  opacity: 0;
-}
 
 .cursor {
   position: fixed;
@@ -42,6 +35,9 @@ body {
   transition: transform 0.2s;
 }
 
+.cursor--link-hovered {
+  transform: translate(-50%, -50%) scale(1.25);
+}
 a {
   &:hover {
     cursor: none;

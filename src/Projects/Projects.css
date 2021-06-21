@@ -1,0 +1,75 @@
+img {
+  width: 45rem;
+}
+
+.selectDisable {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  -ms-user-select: none;
+      user-select: none;
+}
+
+.rignt-nav {
+  float: left;
+}
+
+.text-1 {
+  color: #ced0e3;
+}
+
+.bg-1 {
+  background-color: #ced0e3;
+}
+
+.btn-link-custom-1 {
+  background-color: #171c3d;
+  color: #feed6d;
+}
+
+li {
+  display: block;
+  padding: 2rem 0 2rem 0;
+  -webkit-writing-mode: vertical-rl;
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+}
+
+.color-change-2x {
+  -webkit-animation: color-change-2x 2s linear infinite alternate both;
+  animation: color-change-2x 2s linear infinite alternate both;
+}
+
+@-webkit-keyframes color-change-2x {
+  0% {
+    color: #a5a9c7;
+  }
+  100% {
+    color: #feed6d;
+  }
+}
+
+@keyframes color-change-2x {
+  0% {
+    color: #a5a9c7;
+  }
+  100% {
+    color: #feed6d;
+  }
+}
+
+.btn-link {
+  background-color: #171c3d;
+  color: #ced0e3;
+  border: none;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  text-decoration: none;
+}
+
+.btn-link:hover {
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  color: #feed6d;
+}
+/*# sourceMappingURL=Projects.css.map */

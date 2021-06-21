@@ -1,0 +1,77 @@
+$color-1: #f0f0f0;
+$color-2: #171c3d;
+$color-3: #686a91;
+$color-4: #a5a9c7;
+$color-5: #feed6d;
+$color-6: #ced0e3;
+$color-7: #967893;
+$color-8: #cc9da0;
+
+img {
+  width: 45rem;
+}
+.selectDisable {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.rignt-nav {
+  float: left;
+}
+.text-1 {
+  color: $color-6;
+}
+.bg-1 {
+  background-color: $color-6;
+}
+
+.btn-link-custom-1 {
+  background-color: $color-2;
+  color: #feed6d;
+}
+li {
+  display: block;
+  padding: 2rem 0 2rem 0;
+
+  -webkit-writing-mode: vertical-rl;
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+}
+
+.color-change-2x {
+  -webkit-animation: color-change-2x 2s linear infinite alternate both;
+  animation: color-change-2x 2s linear infinite alternate both;
+}
+
+@-webkit-keyframes color-change-2x {
+  0% {
+    color: $color-4;
+  }
+  100% {
+    color: $color-5;
+  }
+}
+@keyframes color-change-2x {
+  0% {
+    color: $color-4;
+  }
+  100% {
+    color: $color-5;
+  }
+}
+
+.btn-link {
+  background-color: $color-2;
+  color: $color-6;
+  border: none;
+  transition: all 0.4s ease;
+  text-decoration: none;
+
+  &:hover {
+    transition: all 0.4s ease;
+    color: $color-5;
+  }
+}

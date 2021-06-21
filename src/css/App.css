@@ -19,16 +19,6 @@ body {
   cursor: none;
 }
 
-.c--clicked {
-  -webkit-transform: translate(-50%, -50%) scale(0.5);
-          transform: translate(-50%, -50%) scale(0.5);
-  background-color: #ced0e3;
-}
-
-.c--hidden {
-  opacity: 0;
-}
-
 .cursor {
   position: fixed;
   width: 20px;
@@ -39,6 +29,11 @@ body {
   transition: -webkit-transform 0.2s;
   transition: transform 0.2s;
   transition: transform 0.2s, -webkit-transform 0.2s;
+}
+
+.cursor--link-hovered {
+  -webkit-transform: translate(-50%, -50%) scale(1.25);
+          transform: translate(-50%, -50%) scale(1.25);
 }
 
 a:hover {
