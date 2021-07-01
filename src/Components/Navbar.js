@@ -1,16 +1,22 @@
+import { Link,HashRouter } from "react-router-dom"
+
 
 import './style.css'
 function navbar() {
      return (
           
           <div className="mx-4 my-3">
+               <HashRouter basename='/'>
                <nav className="navbar navbar-expand-lg bg-transparent">
                  <div className="container-fluid">
-                       <a href="/" className="navbar-brand " ><i className="fas fa-meteor color-change-2x fs-3"></i></a>
+                   <Link to='/'>
+                    <i className="fas fa-meteor color-change-2x fs-3"></i>
+                    </Link>
                      <p className="para text-1 ">say hi</p>
                  </div>
 
                </nav>
+               </HashRouter>
           </div>
      )
 }

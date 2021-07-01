@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Projects.css'
 import Cards from './Cards'
 import ProjectsData from './ProjectsData'
 
 function Projects() {
+
+     const [projectsData] = useState(ProjectsData.ProjectsData);
+
      return (
           <div className="d-flex justify-content-lg-between justify-content-sm-center selectDisable flex-wrap">
      
@@ -22,8 +25,16 @@ function Projects() {
           <div class="album">
                <div class="container">
                <div class="row row-cols-1 row-cols-sm-2 p-5 row-cols-md-3 g-3">
-                    <Cards/>
-                    </div>
+                    {
+                         projectsData.map((projects, index) => (
+                              <Cards 
+                                   ProjectTitle={projects.title}
+                                   ProjectBannerImage={projects.img}
+                                   ProjectsDescription={projects.desc}
+                              />
+                         ))
+                    }
+               </div>
                </div>
           </div>
      </div>

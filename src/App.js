@@ -1,4 +1,5 @@
 import './css/App.css';
+import { HashRouter, Route } from 'react-router-dom';
 import Navbar from './Components/Navbar'
 import Section from './Section/Section'
 import Footer from './Components/Footer'
@@ -10,8 +11,10 @@ function App() {
      <div className = "App selectDisable " >
      <Cursor/>
       <Navbar />
-      {/* <Section/> */}
-      <Projects/>
+      <HashRouter basename='/'>
+       <Route path='/' exact component={Section} />
+       <Route path='/projects' exact component={Projects} />
+      </HashRouter>
       <Footer />   
     </div>
 );
