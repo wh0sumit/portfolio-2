@@ -1,6 +1,7 @@
 import React from 'react'
 import './Projects.css'
 import Cards from './Cards'
+import ProjectsData from './ProjectsData'
 
 function Projects() {
      return (
