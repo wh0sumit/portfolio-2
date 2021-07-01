@@ -12,7 +12,7 @@
     "react-scripts": "^4.0.3",
     "web-vitals": "^1.1.2"
   },
-  "homepage": "https://wh0sumit.github.io/portfolio-2.0",
+  "homepage": "https://wh0sumit.github.io",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -30,7 +30,7 @@
   "browserslist": {
     "production": [
       ">0.2%",
-      "not dead",
+      "not ie <= 11",
       "not op_mini all"
     ],
     "development": [

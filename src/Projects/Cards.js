@@ -8,7 +8,7 @@ function Cards(ProjectDetails) {
       <div class="card bg-1 h-100 shadow-sm">
         <img src={ProjectsImageData[ProjectDetails.ProjectTitle]} alt=""  className="img-fluid card-img-top"/>
         <div class="card-body">
-          <p class="card-text">{ProjectDetails.ProjectsDescription}</p>
+          {/* <p class="card-text">{ProjectDetails.ProjectsDescription}</p> */}
         </div>
         <div class="d-flex justify-content-between align-items-center card-footer">
           {/* <a class=".btn-link .btn-link-custom-1" target="_blank">View</a> */}
