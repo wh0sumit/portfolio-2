@@ -58,6 +58,59 @@ li {
   }
 }
 
+.downarrow {
+  -webkit-animation: bounce 2s infinite;
+  animation: downarrow 2s linear infinite alternate both;
+}
+
+@-webkit-keyframes downarrow {
+  0% {
+    color: #a5a9c7;
+  }
+  20%,
+  50%,
+  80%,
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    color: #feed6d;
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+    color: #a5a9c7;
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+            transform: translateY(-15px);
+    color: #feed6d;
+  }
+}
+
+@keyframes downarrow {
+  0% {
+    color: #a5a9c7;
+  }
+  20%,
+  50%,
+  80%,
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    color: #feed6d;
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+    color: #a5a9c7;
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+            transform: translateY(-15px);
+    color: #feed6d;
+  }
+}
+
 .btn-link {
   background-color: #171c3d;
   color: #ced0e3;
@@ -71,5 +124,23 @@ li {
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   color: #feed6d;
+}
+
+.card .card-img-top {
+  height: 20rem !important;
+  -webkit-filter: brightness(0.7);
+          filter: brightness(0.7);
+  border-radius: 1rem !important;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.card .card-img-top:hover {
+  -webkit-box-shadow: 0 0 4px #f5f5f5;
+          box-shadow: 0 0 4px #f5f5f5;
+  border-radius: 1rem;
+  -webkit-filter: brightness(0.9);
+          filter: brightness(0.9);
+  border: none;
 }
 /*# sourceMappingURL=Projects.css.map */

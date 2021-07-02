@@ -62,6 +62,33 @@ li {
     color: $color-5;
   }
 }
+.downarrow {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: downarrow 2s linear infinite alternate both;
+}
+
+@keyframes downarrow {
+  0% {
+    color: $color-4;
+  }
+
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+    color: $color-5;
+  }
+  40% {
+    transform: translateY(-30px);
+    color: $color-4;
+  }
+  60% {
+    transform: translateY(-15px);
+    color: $color-5;
+  }
+}
 
 .btn-link {
   background-color: $color-2;
@@ -76,6 +103,21 @@ li {
   }
 }
 
-.card-img-top {
-  height: 10rem !important;
+.card {
+  &:hover {
+    // box-shadow: 0 0 4px #f5f5f5;
+  }
+  .card-img-top {
+    height: 20rem !important;
+    filter: brightness(0.7);
+    border-radius: 1rem !important;
+    transition: all 0.2s;
+    &:hover {
+      box-shadow: 0 0 4px #f5f5f5;
+      border-radius: 1rem;
+      filter: brightness(0.9);
+
+      border: none;
+    }
+  }
 }
