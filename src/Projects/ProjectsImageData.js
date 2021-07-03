@@ -1,9 +1,9 @@
 import Propack from "../assets/Propack.png";
-import Weather from "../assets/Weather App.png";
-import ReadOut from "../assets/Read-Out.png";
+import Weather from "../assets/WeatherApp.png";
+import ReadOut from "../assets/ReadOut.png";
 
 export default {
   "Propack": Propack,
-  "Weather App": Weather,
-  "Read Out": ReadOut
+  "WeatherApp": Weather,
+  "ReadOut": ReadOut
 }

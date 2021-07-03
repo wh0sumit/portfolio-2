@@ -14,6 +14,10 @@ img {
   float: right;
 }
 
+.left-nav {
+  float: left;
+}
+
 .text-1 {
   color: #ced0e3;
 }
