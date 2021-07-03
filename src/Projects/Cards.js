@@ -12,15 +12,16 @@ function Cards(ProjectDetails) {
     <Tilt className="Tilt" options={{ max : 25, speed: 4000, scale: 1 }} >
     <div className="Tilt-inner">
     <HashRouter basename='/projects'>
-    <Link to={ProjectDetails.ProjectTitle}>
+    <Link to={ProjectDetails.ProjectTitle} >
         <div class="col rounded-3"  >
          <div class="card bg-1 h-100 border-0 bg-transparent">
            <img src={ProjectsImageData[ProjectDetails.ProjectTitle]} alt=""  className="img-fluid card-img-top"/>
          </div>
        </div>
        </Link>
-   
+ 
     </HashRouter>
+
        </div>
    </Tilt>
   )

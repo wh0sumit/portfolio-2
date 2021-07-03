@@ -8,7 +8,6 @@ import ProjectsData from './ProjectsData'
 function Projects() {
 
      const [projectsData] = useState(ProjectsData.ProjectsData);
-  
      return (
      <div>
           <div className='container my-5 text-1 my-5 p-5'>
@@ -17,18 +16,18 @@ function Projects() {
             <p>check some of my stuff</p>
               <h1 className='display-4 fw-bold lh-1'>my portfolio</h1>
               <p className='lead'>A small gallery of recent projects chosen by me. I've done them all together with amazing people.
-              want to see more? <span><a href="" target="_blank" className="text-decoration-none color-change-2x"> email me.</a></span>   </p>
+              want to see more? <span><a href="mailto: sumikumar1608@gmail.com" target="_blank" className="text-decoration-none color-change-2x"> email me.</a></span>   </p>
              
             </div>
-            <div className='col-lg-4 offset-lg-1 p-0 my-5 '>
+            <div className='col-lg-4 offset-lg-1 p-0 mt-5 '>
                 <img className='img-fluid w-100 h-100' src={Rocket} alt='' width='760' />
 
             </div>
-            <p className="text-center my-5 fs-1"><i class="fas fa-angle-double-down downarrow"></i></p>
+            <p className="text-center mt-5 mb-2 fs-1"><i class="fas fa-angle-double-down downarrow"></i></p>
           </div>
         </div>
       
-          <div className='d-flex justify-content-lg-around justify-content-sm-center selectDisable flex-wrap my-5'>
+          <div className='d-flex justify-content-lg-around justify-content-sm-center selectDisable flex-wrap my-2'>
      
           {/* <nav className='left-nav d-flex align-self-center justify-content-start  '>
                <ul>
@@ -54,7 +53,7 @@ function Projects() {
                                    ProjectId={projects.id}
                                    ProjectTitle={projects.title}
                                    ProjectDescription={projects.desc}
-                                   
+                                 
                                    ></Cards>
 
                          ))

@@ -13,19 +13,7 @@ img {
 button {
   cursor: pointer !important;
 }
-.ReactModal__Body--open {
-  overflow-y: hidden !important;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
-}
-.ReactModal__Overlay {
-  // scrollbar-width: none !important;
-}
-.ReactModal__Content {
-  // scrollbar-width: none !important;
-  pointer-events: auto;
-}
+
 .selectDisable {
   -webkit-user-select: none;
   -khtml-user-select: none;
@@ -139,4 +127,25 @@ li {
       border: none;
     }
   }
+}
+.border-2 {
+  border: 3px solid $color-6 !important;
+}
+.btn-custom-2 {
+  color: $color-6;
+  &:hover {
+    background-color: $color-6;
+  }
+}
+.btn-custom-1 {
+  color: $color-2;
+  background-color: $color-6;
+  &:hover {
+    background-color: transparent;
+    color: $color-6;
+  }
+}
+.my-7 {
+  margin-top: 10rem !important;
+  margin-bottom: 10rem !important;
 }

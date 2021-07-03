@@ -6,17 +6,6 @@ button {
   cursor: pointer !important;
 }
 
-.ReactModal__Body--open {
-  overflow-y: hidden !important;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
-}
-
-.ReactModal__Content {
-  pointer-events: auto;
-}
-
 .selectDisable {
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -165,5 +154,32 @@ li {
   -webkit-filter: brightness(0.9);
           filter: brightness(0.9);
   border: none;
+}
+
+.border-2 {
+  border: 3px solid #ced0e3 !important;
+}
+
+.btn-custom-2 {
+  color: #ced0e3;
+}
+
+.btn-custom-2:hover {
+  background-color: #ced0e3;
+}
+
+.btn-custom-1 {
+  color: #171c3d;
+  background-color: #ced0e3;
+}
+
+.btn-custom-1:hover {
+  background-color: transparent;
+  color: #ced0e3;
+}
+
+.my-7 {
+  margin-top: 10rem !important;
+  margin-bottom: 10rem !important;
 }
 /*# sourceMappingURL=Projects.css.map */
