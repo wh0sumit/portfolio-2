@@ -9,7 +9,7 @@ import Tilt from 'react-tilt'
 function Cards(ProjectDetails) {
 
   return (
-    <Tilt className="Tilt" options={{ max : 25, speed: 4000, scale: 1 }} >
+    <Tilt className="Tilt" options={{ max : 30, speed: 5000, scale: 1 }} >
     <div className="Tilt-inner">
     <HashRouter basename='/projects'>
     <Link to={ProjectDetails.ProjectTitle} >

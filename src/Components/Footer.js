@@ -7,14 +7,17 @@ function Footer() {
           
           <div className="m-5 fixed-bottom">
                  <HashRouter basename='/'>
-               <nav className="navbar navbar-expand-lg bg-transparent">
-                 <div className="container-fluid">
+                 <nav className="navbar d-flex justify-content-between bg-transparent">
+
+                    <div>
                        <a className="text-decoration-none para text-1" href={Resume} target="_blank" >resume</a>
+                    </div>
+                    <div>
                        <Link to='/projects' className="text-decoration-none para text-1">
                          projects
                     </Link>
-                 </div>
-               </nav>
+                    </div>
+                  </nav>
                </HashRouter>
           </div>
      )

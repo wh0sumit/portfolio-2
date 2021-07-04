@@ -5,8 +5,8 @@ function Contact() {
 
      return (
        <>
-    <div class="container col-xl-12 col-xxl-10 text-1">
-        <div class="row align-items-center g-lg-5 py-5">
+    <div class="container col-xl-12 col-xxl-10 text-1 pt-5 pb-0 px-5">
+        <div class="row align-items-center g-lg-5 pt-5">
           <div class="col-lg-6 text-start ">
             <h1 class=" fw-bold lh-1 mb-3">having a great idea to share?</h1>
           <p>  or want to have a cup of coffee and chit chat, just drop me a message !
@@ -22,7 +22,9 @@ function Contact() {
             </div>
           </div>
           <div class="col-md-10 mx-auto col-lg-6 mx-5">
-          <div class="calendly-inline-widget calender rounded-3 w-75 h-50" data-url="https://calendly.com/wh0sumit/30min?hide_event_type_details=1&hide_gdpr_banner=1&background_color=ced0e3&primary_color=171c3d"></div>
+          <div class="calendly-inline-widget calender rounded-3 w-75 " data-url="https://calendly.com/wh0sumit/30min?hide_event_type_details=1&hide_gdpr_banner=1&background_color=ced0e3&primary_color=171c3d" loading="lazy"></div>
+          
+
           </div>
         </div>
       </div>

@@ -7,6 +7,12 @@ $color-6: #ced0e3;
 $color-7: #967893;
 $color-8: #cc9da0;
 
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 img {
   width: 45rem;
 }
@@ -58,6 +64,10 @@ li {
   }
 }
 
+.hero {
+  width: 40rem !important;
+}
+
 .section {
-  margin: 5rem 0;
+  margin: 7rem 0 !important;
 }

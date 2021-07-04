@@ -1,5 +1,13 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 img {
-  width: 45rem;
+  width: 40rem;
 }
 
 button {
@@ -229,5 +237,44 @@ li {
 .line-word:after {
   left: 0.5em;
   margin-right: -50%;
+}
+
+.section {
+  margin: 7rem 0 !important;
+}
+
+.triangle {
+  width: 50px;
+}
+
+.circle {
+  width: 200px;
+}
+
+.animate-spin {
+  -webkit-animation: spin 8s linear infinite;
+  animation: spin 8s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
 }
 /*# sourceMappingURL=Projects.css.map */

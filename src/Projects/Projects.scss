@@ -6,9 +6,14 @@ $color-5: #feed6d;
 $color-6: #ced0e3;
 $color-7: #967893;
 $color-8: #cc9da0;
-
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 img {
-  width: 45rem;
+  width: 40rem;
 }
 button {
   cursor: pointer !important;
@@ -183,4 +188,27 @@ li {
 .line-word:after {
   left: 0.5em;
   margin-right: -50%;
+}
+.section {
+  margin: 7rem 0 !important;
+}
+
+.triangle {
+  width: 50px;
+}
+.circle {
+  width: 200px;
+}
+.animate-spin {
+  -webkit-animation: spin 8s linear infinite;
+  animation: spin 8s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
