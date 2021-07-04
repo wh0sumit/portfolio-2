@@ -1,5 +1,5 @@
 import { Link,HashRouter } from "react-router-dom"
-
+import hand from './hand.gif'
 
 import './style.css'
 function navbar() {
@@ -12,7 +12,9 @@ function navbar() {
                    <Link to='/'>
                     <i className="fas fa-meteor color-change-2x fs-3"></i>
                     </Link>
-                     <p className="para text-1 ">say hi</p>
+                    <Link to='/contact' className="text-decoration-none">
+                     <p className=" text-1 ">say hi <span><img src={hand} alt="" className="handgif" /></span> </p>
+                     </Link>
                  </div>
 
                </nav>

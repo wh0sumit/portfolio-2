@@ -40,4 +40,40 @@ a:hover {
   cursor: none;
   color: #ced0e3;
 }
+
+.calender {
+  height: 38rem !important;
+  overflow-y: hidden !important;
+  cursor: none !important;
+}
+
+.calender .history {
+  overflow-y: hidden !important;
+}
+
+.line-word {
+  overflow: hidden;
+  text-align: center;
+}
+
+.line-word:before,
+.line-word:after {
+  background-color: #cc9da0;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.line-word:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+.line-word:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
 /*# sourceMappingURL=App.css.map */

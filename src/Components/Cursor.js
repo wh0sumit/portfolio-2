@@ -190,6 +190,7 @@ function CursorCore({
 
   // Hide / Show global cursor
   document.body.style.cursor = 'none'
+  
 
   return (
     <React.Fragment>
