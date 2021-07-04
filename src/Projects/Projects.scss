@@ -145,7 +145,42 @@ li {
     color: $color-6;
   }
 }
-.my-7 {
+.mt-7 {
   margin-top: 10rem !important;
-  margin-bottom: 10rem !important;
+  margin-bottom: 6rem !important;
+}
+.skills {
+  width: 100px !important;
+  height: 100px !important;
+  filter: gray; /* IE5+ */
+  filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
+  transition: all 0.8s ease-in-out;
+  &:hover {
+    filter: none;
+    filter: grayscale(0);
+    transform: scale(1.01);
+  }
+}
+
+.line-word {
+  overflow: hidden;
+  text-align: center;
+}
+.line-word:before,
+.line-word:after {
+  background-color: $color-8;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+.line-word:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+.line-word:after {
+  left: 0.5em;
+  margin-right: -50%;
 }

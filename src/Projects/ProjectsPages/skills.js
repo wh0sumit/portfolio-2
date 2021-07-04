@@ -1,21 +1,12 @@
-import html from "../../assets/skills/html.png";
-import css from "../../assets/skills/css.png";
-import scss from "../../assets/skills/scss.png";
-import javascript from "../../assets/skills/javascript.png";
-import bootstrap from "../../assets/skills/bootstrap.png";
-import react from "../../assets/skills/react.png";
-
-
-export default {
-    "skills": [{
-          "html": html,
-          "css": css,
-          "scss": scss,
-          "javascript": javascript,
-          "bootstrap": bootstrap,
-          "react": react
-        }]
+const SkillsImages  ={
+  
+          html : require('../../assets/skills/html.png').default,
+          css : require('../../assets/skills/css.png').default,
+          scss : require('../../assets/skills/scss.png').default,
+          bootstrap : require('../../assets/skills/bootstrap.png').default,
+          javascript : require('../../assets/skills/javascript.png').default,
+          jquery : require('../../assets/skills/jquery.png').default,
+          react : require('../../assets/skills/react.png').default
 }
-
-
+export default SkillsImages;
  
