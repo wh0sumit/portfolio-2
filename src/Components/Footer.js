@@ -5,7 +5,7 @@ function Footer() {
      
      return (
           
-          <div className="m-5 fixed-bottom">
+          <div className="m-5 mt-lg-0 mb-lg-3">
                  <HashRouter basename='/'>
                  <nav className="navbar d-flex justify-content-between bg-transparent">
 

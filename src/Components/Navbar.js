@@ -5,7 +5,7 @@ import './style.css'
 function navbar() {
      return (
           
-          <div className="m-5 fixed-top">
+          <div className="m-5 mb-lg-0 ">
                <HashRouter basename='/'>
                <nav className="navbar d-flex justify-content-between bg-transparent">
 

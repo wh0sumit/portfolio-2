@@ -240,7 +240,8 @@ li {
 }
 
 .section {
-  margin: 7rem 0 !important;
+  margin: 3rem 0 !important;
+  margin-bottom: 3rem !important;
 }
 
 .triangle {
