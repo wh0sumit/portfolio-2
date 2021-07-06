@@ -15,8 +15,8 @@ function Propack() {
     <>
 
      
-      <div className='container text-1 mt-7 p-5'>
-          <div className='row p-4 pb-0 pe-lg-0  align-items-center '>
+      <div className='container text-1 mt-7 p-5 pt-sm-0'>
+          <div className='row align-items-center '>
             <div className='col-lg-6 p-3 p-lg-5 pt-lg-3 my-5'>
             {/* <p className="display-1 text-muted">01</p> */}
               <h1 className='display-4 fw-bold lh-1'>propack</h1>
@@ -25,7 +25,7 @@ function Propack() {
                 </p>
             <div class="d-grid gap-2 d-sm-flex justify-content-sm-start">
               <a href="https://propack.netlify.app/" className="btn btn-custom-1 border-2" target="_blank">Visit Project</a>
-              <a href="https://github.com/WH0SUMIT/propack" className="btn btn-custom-2 border-2" target="_blank">Visit Project</a>
+              <a href="https://github.com/WH0SUMIT/propack" className="btn btn-custom-2 border-2" target="_blank">Github</a>
               </div>
             </div>
            
@@ -56,9 +56,6 @@ function Propack() {
         <img src={skills.bootstrap} className="img-fluid skills" width="20px" height="22px"/>
     </div>
   </div>   
-  <div className="container px-5">
-  <p className="line-word text-1">made with❤️by sumit singh</p>
-  </div>
     
     </>
   )
