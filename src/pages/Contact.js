@@ -22,7 +22,7 @@ function Contact() {
             </div>
           </div>
           <div class="col-md-10 mx-auto col-lg-6 mx-5 my-4">
-          <div class="calendly-inline-widget calender rounded-3 " data-url="https://calendly.com/wh0sumit/30min?hide_event_type_details=1&hide_gdpr_banner=1&background_color=ced0e3&primary_color=171c3d" loading="lazy"></div>
+          <div class="calendly-inline-widget calender rounded-3 " data-url="https://calendly.com/wh0sumit/15min?hide_event_type_details=1&hide_gdpr_banner=1"  loading="lazy"></div>
           
 
           </div>
